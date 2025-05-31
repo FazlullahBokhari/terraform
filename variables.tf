@@ -8,7 +8,7 @@ variable "instancename" {
     type = string
 }
 
-variable "key-name" {
+variable "keyname" {
     description = "keyname"
     type = string
 }
