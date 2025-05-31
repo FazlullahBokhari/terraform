@@ -7,7 +7,7 @@ resource "aws_instance" "name" {
   instance_type = "t2.micro"
 
   # Optional: Uncomment only if key exists in your region
-  key_name      = "terraform"
+  #key_name      = "terraform"
 }
 
 variable "ami_id" {
