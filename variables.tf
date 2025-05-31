@@ -1,14 +1,14 @@
-variable "ami_id" {
-  description = "ami id"
+variable "amiid" {
+  description = "amiid"
   type = string
 }
 
-variable "instance-name" {
-    description = "instance type"
+variable "instancename" {
+    description = "instancetype"
     type = string
 }
 
 variable "key-name" {
-    description = "key name"
+    description = "keyname"
     type = string
 }
